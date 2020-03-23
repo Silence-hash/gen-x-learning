@@ -1,15 +1,16 @@
 
-package Agus-khun1;
+package Tugas1;
 
 
 public class Gantiwarna {
     private String nama1;
     private String nama2;
+    private String nama3;
     private String warna1;
     private String warna2;
+    private String warna3;
     
-    private String simpansementara1;
-    private String simpansementara2;
+   
 
     public String getNama1(){
         return this.nama1;
@@ -27,7 +28,7 @@ public class Gantiwarna {
     }
     
     public  String getWarna1(){
-        return this.warna2;
+        return this.warna3;
     }
     
     public void setWarna1(String warna1){
@@ -41,7 +42,21 @@ public class Gantiwarna {
     public void setWarna2(String warna2){
         this.warna2 = warna2;
     }
-  
+    
+    public String getNama3(){
+        return this.nama3;
+    }
+    public void setNama3(String nama3){
+        this.nama3 = nama3;
+    }
+    
+    public String getWarna3(){
+      return this.warna2;
+    }
+    
+    public void setWarna3(String warna3){
+        this.warna3  = warna3;
+    }
     
    
     

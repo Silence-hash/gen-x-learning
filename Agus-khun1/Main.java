@@ -42,6 +42,18 @@ public class Main {
                         
                           System.out.println("###############################");
                           
+                          
+                        System.out.print("Masukan nama ketiga = ");
+                        String nama3 = input.nextLine();
+                        objek.setNama3(nama3);
+                        
+                         System.out.print("Masukan warna yang di sukai = ");
+                         String warna3 = input.nextLine();
+                         objek.setWarna3(warna3);
+                          
+                         System.out.println("###############################");
+                         System.out.println("###############################");
+                         
                           System.out.println("nama pertama adalah = "+objek.getNama1());
                           System.out.println("warna yang disukai = "+objek.getWarna1());
                           
@@ -49,6 +61,11 @@ public class Main {
                            
                           System.out.println("nama kedua adalah = "+objek.getNama2());
                           System.out.println("warna yang disukai = "+objek.getWarna2());
+                          
+                            System.out.println("###############################");
+                            
+                            System.out.println("nama ketiga adalah = "+objek.getNama3());
+                            System.out.println("warna yang di sukai = "+ objek.getWarna3());
                           
                           
     }
