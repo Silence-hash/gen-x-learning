@@ -1,5 +1,0 @@
-
-
-class Coba 
-    def test()
-        
